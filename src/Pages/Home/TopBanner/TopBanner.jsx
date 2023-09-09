@@ -43,19 +43,19 @@ const TopBanner = () => {
       <div ref={sliderRef} className="keen-slider ">
         <div className="keen-slider__slide relative">
           <img src="https://wallpaperaccess.com/full/7448.png" />
-          <p className="absolute top-1/2 right-28 text-right text-6xl w-1/3 ml-28 drop-shadow-xl font-bold text-white">
+          <p className="absolute top-1/2 md:right-28 md:text-right text-4xl sm:text-center md:text-6xl md:w-1/3 md:ml-28 drop-shadow-xl font-bold text-white">
             Welcome To a World of Game Review.
           </p>
         </div>
         <div className="keen-slider__slide relative">
           <img src="https://wallpaperaccess.com/full/7451.jpg" />
-          <p className="absolute top-1/2 text-6xl w-1/3 ml-28 drop-shadow-xl font-bold text-white">
+          <p className="absolute top-1/2 text-4xl md:text-left text-center md:text-6xl md:w-1/3 md:ml-28 drop-shadow-xl font-bold text-white">
             Find The Next Game you want to Play.
           </p>
         </div>
         <div className="keen-slider__slide relative">
           <img src="https://wallpaperaccess.com/full/7456.jpg" />
-          <p className="absolute top-1/2 right-28 text-right text-6xl w-1/3 ml-28 drop-shadow-xl font-bold text-white">
+          <p className="absolute top-1/2 md:right-28 md:text-right text-4xl sm:text-center md:text-6xl md:w-1/3 md:ml-28 drop-shadow-xl font-bold text-white">
             New Review Release Every week.
           </p>
         </div>
