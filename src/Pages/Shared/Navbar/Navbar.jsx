@@ -131,7 +131,7 @@ const Navbar = () => {
               display: {
                 xs: "none",
                 md: "flex",
-                justifyContent: "center",
+                justifyContent: "space-around",
               },
             }}
           >
