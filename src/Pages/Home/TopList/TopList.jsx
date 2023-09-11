@@ -17,7 +17,7 @@ const TopList = () => {
       <Typography
         variant="h3"
         color="text.primary"
-        sx={{ mt: 6, mb: 6, textAlign: "center", fontWeight: 'bold' }}
+        sx={{ mt: 6, mb: 6, textAlign: "center", fontWeight: "bold" }}
       >
         Top Reviewed Trilogy That <br /> Everyone Should Try
       </Typography>
@@ -41,12 +41,13 @@ const TopList = () => {
           >
             <CardMedia
               component="img"
+              loading="lazy"
               src={item.img}
               alt={item.title}
               classes={{ root: "custom-card-media" }}
               sx={{
-                width: "100%",
-                height: "200px",
+                width: { md: "100%", sm: "192px" },
+                height: { md: "324px", sm: "108px" },
                 objectFit: "cover",
                 borderRadius: "4px 4px 0 0",
               }}
